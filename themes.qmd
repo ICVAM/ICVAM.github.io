@@ -1,0 +1,84 @@
+---
+format:
+  html:
+    theme:
+      light: flatly
+      dark: darkly
+    css: styles.css
+    page-layout: full
+    toc: false
+---
+
+::: page-header
+# Major Themes
+:::
+
+::::::::::::::::::::: grid
+::::::::::: {.g-col-12 .g-col-md-6}
+::: theme-pill
+Structural vibration
+:::
+
+::: theme-pill
+Dynamics and control
+:::
+
+::: theme-pill
+Vibration energy harvester
+:::
+
+::: theme-pill
+Wave propagation in elastic media
+:::
+
+::: theme-pill
+Structural acoustics
+:::
+
+::: theme-pill
+Duct acoustics / Thermo-acoustics
+:::
+
+::: theme-pill
+Hydro-acoustics
+:::
+
+::: theme-pill
+AI-ML for design
+:::
+:::::::::::
+
+::::::::::: {.g-col-12 .g-col-md-6}
+::: theme-pill
+Fluid-structure interaction
+:::
+
+::: theme-pill
+Fault diagnostics and prognostics
+:::
+
+::: theme-pill
+Aerodynamics and Aeroacoustics
+:::
+
+::: theme-pill
+Mechanical meta-materials
+:::
+
+::: theme-pill
+Solid mechanics and design
+:::
+
+::: theme-pill
+Thermo-elasticity
+:::
+
+::: theme-pill
+Recent advances in material science
+:::
+
+::: theme-pill
+Bio-mechanics
+:::
+:::::::::::
+:::::::::::::::::::::

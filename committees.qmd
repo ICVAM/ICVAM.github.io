@@ -1,0 +1,60 @@
+---
+format:
+  html:
+    theme:
+      light: flatly
+      dark: darkly
+    css: styles.css
+    page-layout: full
+    toc: false
+---
+
+::: page-header
+# Organizing Committee
+:::
+
+### Patron
+
+-   Prof. Sukumar Mishra, Director, IIT(ISM) Dhanbad
+
+### Co-Patron
+
+-   Prof. Dheeraj Kumar Director, TEXMiN IIT(ISM) Dhanbad
+
+### Convener
+
+-   Prof. Rabindra Nath Hota
+
+### Jt. Convener
+
+-   Prof. Ashis Mallick
+
+### Co-Conveners
+
+-   Prof. Sachin Kr Singh
+
+-   Prof. Suparno Bhattacharyya
+
+### Core Committee Members
+
+-   Prof. S.K. Ghoshal
+
+-   Prof. P.K. Mahato
+
+-   Prof. Arun Dayal
+
+-   Prof. Kabilan B
+
+-   Prof. Aman Kumar
+
+-   Prof. (Md.) S. Azam • Prof. R.R. Das
+
+-   Prof. Antarip Poddar
+
+-   Prof. Aditi Sengupta
+
+-   Prof. Sarthak S. Singh
+
+-   Prof. Suman Saha
+
+-   Prof. Omkar Mypati

@@ -1,0 +1,36 @@
+---
+format:
+  html:
+    theme:
+      light: flatly
+      dark: darkly
+    css: styles.css
+    page-layout: full
+    toc: false
+---
+
+::: page-header
+# Registration
+:::
+
+## Registration Fees
+
+**Note:** Registration fees are **inclusive of all taxes**.
+
+### Indian Participants
+
+| Category                           | Early Bird (INR) | Regular (INR) |
+|:-----------------------------------|:----------------:|:-------------:|
+| **Industry Personnel / Scientist** |     ₹10,000      |    ₹11,500    |
+| **Faculties & Post Docs**          |      ₹8,000      |    ₹9,500     |
+| **Students and Scholars**          |      ₹4,000      |    ₹5,000     |
+| **Accompanying Person**            |      ₹1,500      |    ₹1,500     |
+
+### Foreign Participants
+
+| Category                           | Early Bird (USD) | Regular (USD) |
+|:-----------------------------------|:----------------:|:-------------:|
+| **Industry Personnel / Scientist** |      \$300       |     \$350     |
+| **Faculties & Post Docs**          |      \$250       |     \$300     |
+| **Students and Scholars**          |      \$150       |     \$200     |
+| **Accompanying Person**            |       \$50       |     \$50      |

@@ -1,0 +1,51 @@
+project:
+  type: website
+  output-dir: docs
+  
+  
+format:
+  html:
+    theme:
+      light: flatly
+      dark: darkly
+    include-before-body: header.html
+    css: styles.css
+    toc: true
+    smooth-scroll: true
+    link-external-newwindow: true
+    theme-toggle: true 
+
+
+
+
+website:
+  title: ""
+
+  
+  page-footer:
+    background: dark
+    foreground: light
+    center: |
+      © COPYRIGHT 2025-26 ALL RIGHTS RESERVED, IIT(ISM) DHANBAD
+  
+      
+  navbar:
+    background: "#ffffff" 
+    foreground: "#2E020B"
+    container: centered
+    collapse: true
+    
+    left:
+      - text: "HOME"
+        href: index.qmd
+      
+    right:
+      - icon: magnifying-glass
+        aria-label: Search
+
+
+    
+execute:
+  freeze: auto
+
+editor: visual

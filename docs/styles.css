@@ -1,0 +1,272 @@
+/* =========================================================
+   1. FONT IMPORTS (Cleaned up)
+   ========================================================= */
+/* Playfair Display for Headings (Luxury feel) */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&display=swap');
+/* Lato for Navbar text (Clean, modern) */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+/*For Body text*/
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+/* =========================================================
+   2. BASE TYPOGRAPHY
+   ========================================================= */
+body {
+  font-family: 'Lato', Helvetica, Arial, sans-serif;
+  color: #333;
+  line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Lato', serif;
+  font-weight: 700;
+}
+
+
+
+/* --- Custom Navbar Styling --- */
+.custom-navbar {
+  margin-top: 25px; /* Space between subtitle and menu */
+  text-align: center; /* Center the menu items */
+}
+
+.nav-list {
+  list-style-type: none; /* Remove bullet points */
+  padding: 0;
+  margin: 0;
+  display: inline-block; /* Allows centering */
+}
+
+.nav-list > li {
+  display: inline-block; /* Makes list horizontal */
+  margin: 0 15px; /* Spacing between items */
+  position: relative; /* Needed for dropdown positioning */
+}
+
+.nav-list > li > a, .dropbtn {
+  text-decoration: none;
+  color: #333; /* Dark grey text */
+  font-size: 1.05rem;
+  font-weight: 500;
+  padding-bottom: 5px;
+  font-family: "Lato", sans-serif;
+  transition: color 0.3s ease;
+}
+
+.nav-list > li > a:hover, .dropbtn:hover {
+  color: #003366; /* Blue on hover */
+  border-bottom: 2px solid #e63946; /* Red underline effect */
+}
+
+/* --- Dropdown CSS --- */
+.dropdown-content {
+  display: none; /* Hidden by default */
+  position: absolute;
+  background-color: #fff;
+  min-width: 200px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.1);
+  z-index: 1000;
+  text-align: left;
+  border-radius: 4px;
+  top: 100%; /* Positions it right below the "Authors" text */
+  left: 0;
+}
+
+.dropdown-content a {
+  color: #333;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-size: 0.95rem;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+  color: #003366;
+}
+
+/* Show the dropdown on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+.header-main-title {
+  text-align: center;
+  margin-bottom: 1rem;
+  color: #000000;
+}
+
+
+.header-subtitle {
+  text-align: center;
+  margin-bottom: 1rem;
+  color: #000000;
+}
+
+.page-header {
+  text-align: center;
+  margin-bottom: 3rem;
+  color: #000000;
+}
+
+
+/* "Important Dates" Sidebar Box */
+.date-box {
+  background-color: #fdf2f0;
+  border: 1px solid #660000;
+  padding: 15px;
+  margin-top: 20px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+  
+  h3 {
+    color: $accent-color;
+    font-size: 1.1rem;
+    margin-top: 0;
+    text-transform: uppercase;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 8px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    
+    li {
+      margin-bottom: 10px;
+      font-size: 0.9rem;
+      
+      strong {
+        display: block;
+        color: #555;
+      }
+    }
+  }
+}
+
+
+
+/* --- Conference Theme Pills --- */
+.theme-pill {
+  background-color: #fdf2f0; /* Pale pink/peach color */
+  color: #660000;            /* Dark red text */
+  font-weight: 700;          /* Bold font */
+  font-family: "Lato", sans-serif;
+  text-align: center;
+  
+  /* Shape & Spacing */
+  border-radius: 50px;       /* Makes it pill-shaped */
+  padding: 15px 20px;
+  margin-bottom: 20px;       /* Space between rows */
+  width: 100%;               /* Fill the column width */
+  
+  /* Visual Depth */
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* Soft shadow */
+  border: 1px solid rgba(0,0,0,0.05);
+  
+  /* Flexbox to vertically center the text if it wraps */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 60px;          /* Ensures uniform height */
+  
+  transition: transform 0.2s; /* Smooth hover animation */
+}
+
+/* Optional: Slight pop effect on hover */
+.theme-pill:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+  background-color: #fff5f5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* --- Video Card Container (Mint Green Box) --- */
+.video-card {
+  background-color: #800000; 
+  border-radius: 10px;       /* Large rounded corners for the card */
+  padding: 30px 10px 20px 10px; /* Extra top padding for the badge */
+  margin: 30px auto;         /* Centers the card vertically */
+  position: relative;        /* Necessary for the absolute badge */
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  max-width: 1080px;          /* Prevents it from getting too wide on huge screens */
+}
+
+/* --- The Pink "Pill" Header --- */
+.video-title-badge {
+  background: linear-gradient(to right, #800000, #a70000); /* Pink gradient */
+  border: 1px solid #ffa7a7;    /* Comic-style bold border */
+  border-radius: 40px;       /* Pill shape */
+  padding: 5px 15px;
+  
+  /* Text Styling */
+  font-family: PT Serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: #fff;
+  text-transform: uppercase;
+  
+  /* Floating Position */
+  position: absolute;
+  top: -40px;                /* Pulls it halfway out of the box */
+  left: 50%;
+  transform: translateX(-50%); /* Perfectly centers it */
+  z-index: 10;
+  box-shadow: 2px 2px 0px #000; /* Hard shadow for pop effect */
+}
+
+/* --- White Inner Content Box --- */
+.video-content {
+  background: white;
+  border-radius: 15px;
+  padding: 10px;             /* White frame spacing around video */
+  border: 1px solid #ddd;
+  box-shadow: inset 0 0 10px rgba(0,0,0,0.05); /* Inner shadow for depth */
+}
+
+/* --- The Video Element Itself --- */
+.video-content video {
+  width: 100%;               /* Responsive width */
+  height: auto;              /* Maintain aspect ratio */
+  display: block;            /* Removes bottom whitespace gap */
+  border-radius: 10px;       /* Matches the inner box curves */
+  object-fit: cover;         /* Ensures no black bars if ratio differs */
+}
