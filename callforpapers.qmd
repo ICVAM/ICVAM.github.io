@@ -8,5 +8,4 @@ format:
     toc: false
 ---
 
-programme details will go here. . .
-
+Call for paper details will go here. . .

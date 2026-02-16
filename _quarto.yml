@@ -7,7 +7,6 @@ format:
   html:
     theme:
       light: flatly
-      dark: darkly
     include-before-body: header.html
     css: styles.css
     toc: true
@@ -27,21 +26,6 @@ website:
     foreground: light
     center: |
       © COPYRIGHT 2025-26 ALL RIGHTS RESERVED, IIT(ISM) DHANBAD
-  
-      
-  navbar:
-    background: "#ffffff" 
-    foreground: "#2E020B"
-    container: centered
-    collapse: true
-    
-    left:
-      - text: "HOME"
-        href: index.qmd
-      
-    right:
-      - icon: magnifying-glass
-        aria-label: Search
 
 
     

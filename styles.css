@@ -14,7 +14,7 @@
    ========================================================= */
 body {
   font-family: 'Lato', Helvetica, Arial, sans-serif;
-  color: #333;
+  color: #000;
   line-height: 1.6;
 }
 
@@ -26,8 +26,11 @@ h1, h2, h3, h4, h5, h6 {
 
 
 /* --- Custom Navbar Styling --- */
+
+
 .custom-navbar {
   margin-top: 25px; /* Space between subtitle and menu */
+  margin-bottom: 40px;
   text-align: center; /* Center the menu items */
 }
 
@@ -46,7 +49,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .nav-list > li > a, .dropbtn {
   text-decoration: none;
-  color: #333; /* Dark grey text */
+  color: #000; /* Dark grey text */
   font-size: 1.05rem;
   font-weight: 500;
   padding-bottom: 5px;
@@ -55,11 +58,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-list > li > a:hover, .dropbtn:hover {
-  color: #003366; /* Blue on hover */
+  color: #39E6D8; /* Blue on hover */
   border-bottom: 2px solid #e63946; /* Red underline effect */
 }
 
+
 /* --- Dropdown CSS --- */
+
+
 .dropdown-content {
   display: none; /* Hidden by default */
   position: absolute;
@@ -74,7 +80,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .dropdown-content a {
-  color: #333;
+  color: #000;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
@@ -82,11 +88,16 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .dropdown-content a:hover {
-  background-color: #f1f1f1;
-  color: #003366;
+  background-color: #9EE639;
+  color: #000;
 }
 
+
+
+
 /* Show the dropdown on hover */
+
+
 .dropdown:hover .dropdown-content {
   display: block;
 }
@@ -112,21 +123,24 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
+
+
 /* "Important Dates" Sidebar Box */
+
 .date-box {
-  background-color: #fdf2f0;
-  border: 1px solid #660000;
+  background-color: #F5F5DC;
+  border: 1px solid #000;
   padding: 15px;
   margin-top: 20px;
   box-shadow: 0 2px 5px rgba(0,0,0,0.05);
   
   h3 {
-    color: $accent-color;
+    color: #000;
+    text-align: center;
     font-size: 1.1rem;
     margin-top: 0;
     text-transform: uppercase;
-    border-bottom: 1px solid #eee;
-    padding-bottom: 8px;
+    padding-bottom: 10px;
   }
   
   ul {
@@ -135,11 +149,11 @@ h1, h2, h3, h4, h5, h6 {
     
     li {
       margin-bottom: 10px;
-      font-size: 0.9rem;
+      font-size: 1rem;
       
       strong {
         display: block;
-        color: #555;
+        color: #000;
       }
     }
   }
@@ -148,10 +162,13 @@ h1, h2, h3, h4, h5, h6 {
 
 
 /* --- Conference Theme Pills --- */
+
+
 .theme-pill {
   background-color: #fdf2f0; /* Pale pink/peach color */
   color: #660000;            /* Dark red text */
   font-weight: 700;          /* Bold font */
+  font-size: 1.2rem;
   font-family: "Lato", sans-serif;
   text-align: center;
   
@@ -178,7 +195,7 @@ h1, h2, h3, h4, h5, h6 {
 .theme-pill:hover {
   transform: translateY(-2px);
   box-shadow: 0 6px 12px rgba(0,0,0,0.15);
-  background-color: #fff5f5;
+  background-color: #F5FDF0;
 }
 
 
@@ -188,7 +205,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* 1. Style the Main Headings (e.g., "Keynote Speakers") */
 h2 {
-  color: #cc0000; /* Dark red to match your reference images */
+  color: #000; /* Dark red to match your reference images */
   text-align: center;
   font-weight: 700;
   margin-top: 50px;
@@ -233,26 +250,10 @@ h2 {
 
 
 
-/* --- Page Header --- */
-.page-title {
-  text-align: center;
-  font-weight: 800;
-  color: #333;
-  margin-top: 40px;
-  margin-bottom: 10px;
-}
-
-.title-underline {
-  width: 80px;
-  height: 3px;
-  background-color: #666;
-  border: none;
-  margin: 0 auto 50px auto;
-}
 
 /* --- The Card Style --- */
 .card-box {
-  background-color: #ffffff;
+  background-color: #F4EBE2;
   padding: 40px;
   border-radius: 15px; /* Rounded corners */
   box-shadow: 0 10px 30px rgba(0,0,0,0.08); /* Soft shadow */
@@ -261,11 +262,13 @@ h2 {
 }
 
 .card-header {
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   font-weight: 700;
-  color: #333;
+  text-align: center;
+  color: #000;
+  margin-top: 5px;
   margin-bottom: 25px;
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid #333;
   padding-bottom: 10px;
 }
 
@@ -280,7 +283,7 @@ h2 {
 .icon-circle {
   width: 40px;
   height: 40px;
-  background-color: #ffbf00; /* Yellow Icon Background */
+  background-color: #800000; 
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -291,20 +294,19 @@ h2 {
 
 .info-item strong {
   display: block;
-  font-size: 0.9rem;
-  color: #333;
+  font-size: 1.1rem;
+  color: #000;
 }
 
 .info-item p {
   margin: 0;
-  font-size: 0.9rem;
+  font-size: 1rem;
 }
 
-.map-wrapper img {
-  border-radius: 8px;
-  filter: grayscale(100%);
-  opacity: 0.8;
-  border: 1px solid #ddd;
+.map-wrapper {
+  border-radius: 5px;
+  opacity: 1.0;
+  border: 3px solid #800000;
 }
 
 /* --- Right Card Content (Form) --- */
@@ -313,8 +315,9 @@ h2 {
   width: 100%;
   padding: 15px;
   border: none;
-  border-radius: 5px;
-  background-color: #eee; /* Light grey input background */
+  border-radius: 10px;
+  margin-top: 6px;
+  background-color: #fff; /* Light grey input background */
   font-family: inherit;
   font-size: 0.95rem;
   transition: box-shadow 0.3s ease;
@@ -324,7 +327,7 @@ h2 {
 .custom-form textarea:focus {
   outline: none;
   background-color: #fff;
-  box-shadow: 0 0 0 2px #325796; /* Yellow glow on focus */
+  box-shadow: 0 0 0 2px #eee; /* Yellow glow on focus */
 }
 
 .submit-btn {
@@ -332,7 +335,7 @@ h2 {
   padding: 15px;
   border: none;
   border-radius: 50px; /* Pill shape button */
-  background-color: #325796; /* Yellow Button */
+  background-color: #800000; /* Yellow Button */
   color: white;
   font-weight: 700;
   font-size: 1rem;
@@ -343,81 +346,85 @@ h2 {
 }
 
 .submit-btn:hover {
-  background-color: #e6ac00;
+  background-color: #C10B29;
   transform: translateY(-2px);
 }
 
 
 
+/* --- Registration Table Styling --- */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* --- Video Card Container (Mint Green Box) --- */
-.video-card {
-  background-color: #800000; 
-  border-radius: 10px;       /* Large rounded corners for the card */
-  padding: 30px 10px 20px 10px; /* Extra top padding for the badge */
-  margin: 30px auto;         /* Centers the card vertically */
-  position: relative;        /* Necessary for the absolute badge */
-  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
-  max-width: 1080px;          /* Prevents it from getting too wide on huge screens */
+/* 1. Container Styling */
+.fee-table {
+  overflow-x: auto; /* Responsive scrolling on mobile */
+  margin-bottom: 40px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08); /* Soft shadow for depth */
 }
 
-/* --- The Pink "Pill" Header --- */
-.video-title-badge {
-  background: linear-gradient(to right, #800000, #a70000); /* Pink gradient */
-  border: 1px solid #ffa7a7;    /* Comic-style bold border */
-  border-radius: 40px;       /* Pill shape */
-  padding: 5px 15px;
-  
-  /* Text Styling */
-  font-family: PT Serif;
+/* 2. Target the actual Table element */
+.fee-table table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0;
+  font-size: 1rem;
+  background-color: #ffffff;
+}
+
+/* 3. Header Styling (Deep Blue Background) */
+.fee-table thead tr {
+  background-color: #003366; /* Conference Theme Blue */
+  color: #ffffff;
+  text-align: center;
+}
+
+.fee-table th {
+  padding: 18px 15px;
   font-weight: 700;
-  font-size: 1.5rem;
-  color: #fff;
-  text-transform: uppercase;
-  
-  /* Floating Position */
-  position: absolute;
-  top: -40px;                /* Pulls it halfway out of the box */
-  left: 50%;
-  transform: translateX(-50%); /* Perfectly centers it */
-  z-index: 10;
-  box-shadow: 2px 2px 0px #000; /* Hard shadow for pop effect */
+  letter-spacing: 0.6px;
+  border: none; /* Removes default borders */
 }
 
-/* --- White Inner Content Box --- */
-.video-content {
-  background: white;
-  border-radius: 15px;
-  padding: 10px;             /* White frame spacing around video */
-  border: 1px solid #ddd;
-  box-shadow: inset 0 0 10px rgba(0,0,0,0.05); /* Inner shadow for depth */
+/* 4. Body Row Styling */
+.fee-table tbody tr {
+  border-bottom: 1px solid #eeeeee;
+  transition: all 0.1s ease;
 }
 
-/* --- The Video Element Itself --- */
-.video-content video {
-  width: 100%;               /* Responsive width */
-  height: auto;              /* Maintain aspect ratio */
-  display: block;            /* Removes bottom whitespace gap */
-  border-radius: 10px;       /* Matches the inner box curves */
-  object-fit: cover;         /* Ensures no black bars if ratio differs */
+/* Zebra Striping: Every even row gets a light grey background */
+.fee-table tbody tr:nth-of-type(all) {
+  background-color: #f8f9fa;
 }
+
+/* Hover Effect: Row gets slightly darker on mouse over */
+.fee-table tbody tr:hover {
+  background-color: #eef2f7;
+  transform: scale(1.005); /* Subtle pop effect */
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+/* 5. Cell Styling */
+.fee-table td {
+  padding: 15px 20px;
+  color: #333;
+  vertical-align: middle;
+}
+
+/* Center align the pricing columns (2nd and 3rd) */
+.fee-table td:nth-child(2),
+.fee-table td:nth-child(3) {
+  text-align: center;
+  font-weight: 500;
+  color: #003366; /* Blue text for prices */
+}
+
+/* Left align the Category column (1st) */
+.fee-table td:first-child {
+  text-align: left;
+  font-weight: 600; /* Bold category names */
+  color: #444;
+  border-left: 5px solid transparent; /* invisible border for hover effect */
+}
+
+
+

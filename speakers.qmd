@@ -3,15 +3,10 @@ format:
   html:
     theme:
       light: flatly
-      dark: darkly
     css: styles.css
     page-layout: full
     toc: false
 ---
-
-::: page-header
-# Speakers
-:::
 
 ## Keynote Speakers (Tentative)
 

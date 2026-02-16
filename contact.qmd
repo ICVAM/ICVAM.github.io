@@ -10,7 +10,7 @@ format:
 ---
 
 ::: page-header
-# CONTACT US
+# CONTACT
 :::
 
 ```{=html}
@@ -40,13 +40,13 @@ format:
             </div>
             <div>
               <strong>Email</strong>
-              <p class="text-muted">incotherm2025@iitism.ac.in</p>
+              <p class="text-muted">icvam@iitism.ac.in</p>
             </div>
           </div>
         </div>
-
+        
         <div class="map-wrapper">
-          ![](images/map-placeholder.png){width="100%"}
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3650.135144812497!2d86.43776707533789!3d23.813792878627236!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f6bc9f5e3682c3%3A0x8f5db12505596ae3!2sDepartment%20Of%20Mechanical%20Engineering!5e0!3m2!1sen!2sin!4v1771253472783!5m2!1sen!2sin" width="450" height="300" style="border:0;" allowfullscreen="" loading="fast" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
 
       </div>
@@ -67,7 +67,7 @@ format:
           </div>
           
           <div class="mb-3">
-            <textarea name="message" placeholder="MESSAGE" rows="5" required></textarea>
+            <textarea name="message" placeholder="MESSAGE" rows="8" required></textarea>
           </div>
           
           <button type="submit" class="submit-btn">SUBMIT</button>

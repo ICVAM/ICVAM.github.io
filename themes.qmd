@@ -10,7 +10,7 @@ format:
 ---
 
 ::: page-header
-# Major Themes
+# MAJOR THEMES
 :::
 
 ::::::::::::::::::::: grid
