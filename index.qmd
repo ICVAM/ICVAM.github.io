@@ -32,29 +32,22 @@ The Department of Mechanical Engineering, established in 1999, has celebrated 25
 
 <ul>
 
-<li><strong>Full Paper Submission</strong> July 31, 2025</li>
+<li><strong>Abstract Submission Starts</strong> 21st April, 2026</li>
 
-<li><strong>Notification of Decision</strong> September 30, 2025</li>
+<li><strong>Abstract Submission Ends</strong> 20th May, 2026</li>
 
-<li><strong>Camera-Ready Paper</strong> October 15, 2025</li>
+<li><strong>Full Paper Submission Starts</strong> 01st June, 2026</li>
 
-<li><strong>Early Bird Registration</strong> October 29, 2025</li>
+<li><strong>Full Paper Submission Deadline</strong> 30th July, 2026</li>
 
-</ul>
-:::
+<li><strong>Notification of Acceptance</strong> 30th August, 2026</li>
 
-::: date-box
-<h3>SMDC Dates</h3>
+<li><strong>Camera Ready Paper Submission</strong> 21st September, 2026</li>
 
-<ul>
-
-<li><strong>Initial Proposal</strong> June 6, 2025</li>
-
-<li><strong>Detailed Design</strong> September 14, 2025</li>
-
-<li><strong>Final Demonstration</strong> Dec 7–10, 2025</li>
+<li><strong>Early Bird Registration</strong> 01st October, 2026</li>
 
 </ul>
 :::
+
 :::::
 :::::::

@@ -184,17 +184,168 @@ h1, h2, h3, h4, h5, h6 {
 
 
 
+/* --- Speaker List Styling --- */
+
+/* 1. Style the Main Headings (e.g., "Keynote Speakers") */
+h2 {
+  color: #cc0000; /* Dark red to match your reference images */
+  text-align: center;
+  font-weight: 700;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* 2. Remove default bullet points inside the grid columns */
+.grid ul {
+  list-style-type: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+/* 3. Turn each list item (Speaker) into a "Card" */
+.grid li {
+  background-color: #F5FFFA;
+  border-left: 2px solid #e63946; /* Red accent bar on the left */
+  padding: 15px 20px;
+  margin-bottom: 15px; /* Space between cards */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 6px rgba(0,0,0,0.05); /* Soft shadow */
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  line-height: 1;
+}
+
+/* 4. Add a hover effect for interactivity */
+.grid li:hover {
+  transform: translateY(-5px); /* Moves up slightly */
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1); /* Shadow grows */
+  background-color: #fdfdfd;
+}
+
+/* 5. Style the Name (Bold text) */
+.grid li strong {
+  display: block; /* Puts the name on its own line above affiliation */
+  color: #003366; /* Deep blue for the name */
+  font-size: 1.1rem;
+  margin-bottom: 1px;
+}
 
 
 
+/* --- Page Header --- */
+.page-title {
+  text-align: center;
+  font-weight: 800;
+  color: #333;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
 
+.title-underline {
+  width: 80px;
+  height: 3px;
+  background-color: #666;
+  border: none;
+  margin: 0 auto 50px auto;
+}
 
+/* --- The Card Style --- */
+.card-box {
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 15px; /* Rounded corners */
+  box-shadow: 0 10px 30px rgba(0,0,0,0.08); /* Soft shadow */
+  border: 1px solid rgba(0,0,0,0.02);
+  height: 100%; /* Ensures equal height */
+}
 
+.card-header {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 25px;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 10px;
+}
 
+/* --- Left Card Content (Icons) --- */
+.info-item {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 25px;
+  align-items: center;
+}
 
+.icon-circle {
+  width: 40px;
+  height: 40px;
+  background-color: #ffbf00; /* Yellow Icon Background */
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 1.1rem;
+}
 
+.info-item strong {
+  display: block;
+  font-size: 0.9rem;
+  color: #333;
+}
 
+.info-item p {
+  margin: 0;
+  font-size: 0.9rem;
+}
 
+.map-wrapper img {
+  border-radius: 8px;
+  filter: grayscale(100%);
+  opacity: 0.8;
+  border: 1px solid #ddd;
+}
+
+/* --- Right Card Content (Form) --- */
+.custom-form input,
+.custom-form textarea {
+  width: 100%;
+  padding: 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: #eee; /* Light grey input background */
+  font-family: inherit;
+  font-size: 0.95rem;
+  transition: box-shadow 0.3s ease;
+}
+
+.custom-form input:focus,
+.custom-form textarea:focus {
+  outline: none;
+  background-color: #fff;
+  box-shadow: 0 0 0 2px #325796; /* Yellow glow on focus */
+}
+
+.submit-btn {
+  width: 100%;
+  padding: 15px;
+  border: none;
+  border-radius: 50px; /* Pill shape button */
+  background-color: #325796; /* Yellow Button */
+  color: white;
+  font-weight: 700;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: transform 0.2s, background-color 0.2s;
+}
+
+.submit-btn:hover {
+  background-color: #e6ac00;
+  transform: translateY(-2px);
+}
 
 
 

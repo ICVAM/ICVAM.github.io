@@ -1,0 +1,168 @@
+---
+format:
+  html:
+    theme:
+      light: flatly
+      dark: darkly
+    css: styles.css
+    page-layout: full
+    toc: false
+---
+
+::: page-header
+# Speakers
+:::
+
+## Keynote Speakers (Tentative)
+
+::::: grid
+::: {.g-col-12 .g-col-md-6}
+-   **Prof. Mikhail Zheludkevich**\
+    Helmholtz-Zentrum Hereon, Germany
+-   **Prof. R. Shabadi**\
+    University of Lille, France
+-   **Prof. Nele Moelans**\
+    KU Leuven, Belgium
+-   **Prof. Santosh Kapuria**\
+    IIT Delhi
+-   **Prof. Srikanth Vedantam**\
+    IIT Madras
+-   **Prof. P. Chandramauli**\
+    IIT Madras
+-   **Prof. Narashima**\
+    IISc Bangalore
+:::
+
+::: {.g-col-12 .g-col-md-6}
+-   **Prof. Craig Carter**\
+    MIT, USA
+-   **Prof. Manoj Gupta**\
+    NUS, Singapore
+-   **Prof. Stephen Kirkup**\
+    University of Central Lancashire, UK
+-   **Prof. A.R. Mohanty**\
+    IIT Kharagpur
+-   **Prof. Anindya Chatterjee**\
+    IIT Kanpur
+-   **Prof. Nachiketa Tiwary**\
+    IIT Kanpur
+-   **Prof. R.I. Sujith**\
+    IIT Madras
+:::
+:::::
+
+## Invited Speakers (Tentative)
+
+:::: grid
+::: {.g-col-12 .g-col-md-6}
+-   **Prof. Rajib Chowdhury**\
+    IIT Roorkee
+:::
+::::
+
+## International Advisory Committee (Tentative)
+
+::::: grid
+::: {.g-col-12 .g-col-md-6}
+-   **Prof. Shailendra Joshi**\
+    University of Houston, USA
+-   **Prof. Manoj Gupta**  NUS, Singapore
+-   **Prof. Rajashekhara Shabadi**\
+    Université de Lille, France
+-   **Prof. Prakash Thamburaja**\
+    Universiti Kebangsaan, Malaysia
+-   **Prof. Atul Bhaskar**\
+    University of Southampton, England
+:::
+
+::: {.g-col-12 .g-col-md-6}
+-   **Prof. Raman Singh**\
+    Monash University, Australia
+-   **Prof. Stephen Kirkup**\
+    University of Central Lancashire, UK
+-   **Prof. Satish Kumar**\
+    Georgia Institute of Technology, USA
+-   **Prof. Joseph Cusumano**\
+    Pennsylvania State University, USA
+:::
+:::::
+
+## National Advisory Committee (Tentative)
+
+::::: grid
+::: {.g-col-12 .g-col-md-6}
+-   **Prof. M.L. Munjal**\
+    Honorary Professor, IISc Bangalore
+-   **Prof. Narasimha**\
+    IISc Bangalore
+-   **Prof. V.R. Sonti**\
+    IISc Bangalore
+-   **Prof. S. Vedantam**\
+    IIT Madras
+-   **Prof. Nilesh Gurao**\
+    IIT Kanpur
+-   **Prof. Anindya Chatterjee**\
+    IIT Kanpur
+-   **Prof. D. Chakraborty**\
+    IIT Guwahati
+-   **Prof. Somnath Sarangi**\
+    IIT Patna
+-   **Prof. Dheeraj Kumar**\
+    IIT(ISM) Dhanbad
+-   **Prof. Amit Rai Dixit**\
+    Dean (Infra), IIT(ISM) Dhanbad
+-   **Prof. K.K. Ojha**\
+    Dean (CEP), IIT(ISM) Dhanbad
+-   **Prof. R. Upadhyay**\
+    Dean (IRAA), IIT(ISM) Dhanbad
+-   **Prof. Partha Das**\
+    Dean (R&D), IIT(ISM) Dhanbad
+-   **Prof. S.K. Das**\
+    Dean (Faculty), IIT(ISM) Dhanbad
+-   **Prof. R.I. Sujith**\
+    IIT Madras
+-   **Prof. S.K. Panda**\
+    IIT Bhubaneswar
+-   **Prof. Anup Akkoorath Mana**\
+    IIT Palakkad
+:::
+
+::: {.g-col-12 .g-col-md-6}
+-   **Dr. Debdutta Ratna**\
+    NMRL (DRDO)
+-   **Prof. Santosh Kapuria**\
+    IIT Delhi
+-   **Prof. V. Venketesham**\
+    IIT Hyderabad
+-   **Sri Vishal Chowdhary**\
+    Mahindra Research Centre, Chennai
+-   **Dr. V. Ganesan**\
+    GTRE Bangalore
+-   **Dr. S. Barad**\
+    GTRE Bangalore
+-   **Prof. Prasun Jana**\
+    IIT Kharagpur
+-   **Sri Amit Das**\
+    ITR (DRDO), Chandipur
+-   **Prof. Pranesh Roy**\
+    CE, IIT(ISM), Dhanbad
+-   **Prof. R. Rahul**\
+    FMME, IIT(ISM), Dhanbad
+-   **Prof. Raj Kiron**\
+    PE, IIT(ISM), Dhanbad
+-   **Prof. S. Mandal**\
+    CHE, IIT(ISM), Dhanbad
+-   **Prof. S. Agarwal**\
+    ME, IIT(ISM), Dhanbad
+-   **Prof. Ashok Das**\
+    MC, IIT(ISM), Dhanbad
+-   **Prof. Ritwik Mondal**\
+    Phy, IIT(ISM), Dhanbad
+-   **Prof. Jadab Majhi**\
+    CCB, IIT(ISM) Dhanbad
+-   **Prof. A. S. Majumdar**\
+    AGL, IIT(ISM), Dhanbad
+-   **Prof. R.I. Sujith**\
+    IIT Madras
+:::
+:::::

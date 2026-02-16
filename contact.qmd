@@ -1,0 +1,81 @@
+---
+format:
+  html:
+    theme:
+      light: flatly
+      dark: darkly
+    css: styles.css
+    page-layout: full
+    toc: false
+---
+
+::: page-header
+# CONTACT US
+:::
+
+```{=html}
+<div class="container" style="margin-bottom: 5rem;">
+  
+  <div class="grid" style="gap: 2rem;">
+
+    <div class="g-col-12 g-col-md-6">
+      <div class="card-box h-100">
+        
+        <h3 class="card-header">Reach Us</h3>
+        
+        <div class="contact-info">
+          <div class="info-item">
+            <div class="icon-circle">
+              <i class="bi bi-geo-alt-fill"></i>
+            </div>
+            <div>
+              <strong>Address</strong>
+              <p class="text-muted">IIT(ISM) Dhanbad, Jharkhand, India</p>
+            </div>
+          </div>
+          
+          <div class="info-item">
+            <div class="icon-circle">
+              <i class="bi bi-envelope-fill"></i>
+            </div>
+            <div>
+              <strong>Email</strong>
+              <p class="text-muted">incotherm2025@iitism.ac.in</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="map-wrapper">
+          ![](images/map-placeholder.png){width="100%"}
+        </div>
+
+      </div>
+    </div>
+
+    <div class="g-col-12 g-col-md-6">
+      <div class="card-box h-100">
+        
+        <h3 class="card-header">Send a Message</h3>
+
+        <form action="#" method="post" class="custom-form">
+          <div class="mb-3">
+            <input type="text" name="name" placeholder="NAME" required>
+          </div>
+          
+          <div class="mb-3">
+            <input type="email" name="email" placeholder="EMAIL" required>
+          </div>
+          
+          <div class="mb-3">
+            <textarea name="message" placeholder="MESSAGE" rows="5" required></textarea>
+          </div>
+          
+          <button type="submit" class="submit-btn">SUBMIT</button>
+        </form>
+
+      </div>
+    </div>
+
+  </div>
+</div>
+```

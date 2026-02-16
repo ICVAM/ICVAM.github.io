@@ -37,5 +37,17 @@
   },
   "themes.qmd": {
     "themes.html": "da15f08a"
+  },
+  "speakers.qmd": {
+    "speakers.html": "329bd59a"
+  },
+  "contact.qmd": {
+    "contact.html": "962fb103"
+  },
+  "docs/contact.qmd": {
+    "contact.html": "cf09733e"
+  },
+  "travels.qmd": {
+    "travels.html": "d9429f33"
   }
 }
