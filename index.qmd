@@ -9,7 +9,7 @@ format:
 ---
 
 :::::: grid
-::: {.g-col-12 .g-col-md-8}
+::: {.g-col-12 .g-col-md-8 .justify-text}
 ## About Conference
 
 The 1st International Conference on Vibro-acoustic and Mechano-materials (ICVAM-2026) aims to bring together academicians, researchers, students and scientists to exchange novel and innovative ideas, state-of-the-art methodologies, results, and to discuss recent advancements in the broad fields of Vibration, Acoustics, and Mechanics of Materials.
@@ -21,7 +21,6 @@ Established in 1926, IIT(ISM) Dhanbad is located in India’s coking coal belt, 
 ## About the Department
 
 The Department of Mechanical Engineering, established in 1999, has celebrated 25 years of excellence and is the largest department in the institute with 45 faculty members. It offers two undergraduate courses: Mechanical Engineering and Mining Machinery Engineering. Faculty and students collaborate on research in areas like microfluidics, robotics, renewable energy, R&AC, biofluid mechanics, aeroacoustics and more. Students engage in the Robotics Club, Smart Manufacturing, ASME chapter and other professional bodies. The department oversees many R&D projects with student involvement in national and international research and consultancy. To know more about ME department, kindly visit ME, IIT(ISM) Dhanbad.
-
 :::
 
 :::: {.g-col-12 .g-col-md-4}
@@ -48,3 +47,53 @@ The Department of Mechanical Engineering, established in 1999, has celebrated 25
 :::
 ::::
 ::::::
+
+<br>
+
+<h2 class="text-center mb-4" style="color: #003366; font-weight: 700;">
+
+Conference Highlights & Campus Tour
+
+</h2>
+
+::::::::::::::: grid
+::::: {.g-col-12 .g-col-md-6 .g-col-lg-3}
+:::: video-card
+{{< video https://www.youtube.com/watch?v=9n_tKi5b3fE aspect-ratio="16x9" >}}
+
+::: video-desc
+Campus Tour of IIT(ISM)
+:::
+::::
+:::::
+
+::::: {.g-col-12 .g-col-md-6 .g-col-lg-3}
+:::: video-card
+{{< video https://www.youtube.com/watch?v=m6d6848s21s aspect-ratio="16x9" >}}
+
+::: video-desc
+Department Overview
+:::
+::::
+:::::
+
+::::: {.g-col-12 .g-col-md-6 .g-col-lg-3}
+:::: video-card
+{{< video https://www.youtube.com/watch?v=kmM5IVVl2lQ aspect-ratio="16x9" >}}
+
+::: video-desc
+Visionary Partners
+:::
+::::
+:::::
+
+::::: {.g-col-12 .g-col-md-6 .g-col-lg-3}
+:::: video-card
+{{< video https://www.youtube.com/watch?v=qVNt9moiyU0 aspect-ratio="16x9" >}}
+
+::: video-desc
+Centenary celebration
+:::
+::::
+:::::
+:::::::::::::::

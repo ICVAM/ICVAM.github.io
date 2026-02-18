@@ -428,3 +428,35 @@ h2 {
 
 
 
+
+
+/* --- Video Card Styling --- */
+
+/* The container for the video and text */
+.video-card {
+  background: #ffffff;
+  border-radius: 12px;       /* Smooth rounded corners */
+  overflow: hidden;          /* Ensures video respects the rounded corners */
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1); /* Soft shadow */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Animation settings */
+  height: 100%;              /* Ensures cards are same height */
+  border: 1px solid rgba(0,0,0,0.05);
+}
+
+/* Hover Effect: Lifts the card up */
+.video-card:hover {
+  transform: translateY(-8px); /* Moves up 8 pixels */
+  box-shadow: 0 12px 25px rgba(0,0,0,0.15); /* Shadow gets deeper */
+}
+
+/* The Text Description */
+.video-desc {
+  padding: 15px;
+  text-align: center;
+  font-weight: 600;
+  color: #333;
+  font-family: "Segoe UI", sans-serif;
+  background-color: #fff;
+  border-top: 1px solid #f0f0f0;
+}
+
